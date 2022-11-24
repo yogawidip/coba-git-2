@@ -25,5 +25,7 @@ for row in table.find_all('tr')[1:]:
     length = len(df)
     df.loc[length] = row_data
 
-print (df)
-# print(df.loc[:,'Karakter':'Nilai ANSI ASCII(desimal)'])
+# print (df)
+
+# print only the character
+print(df.loc[:,'Karakter'])
